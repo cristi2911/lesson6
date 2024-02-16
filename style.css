@@ -1,0 +1,16 @@
+
+
+
+.testClass::after {
+    content: '1';
+    margin-left: 6px;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.testClass::before {
+    content: 'before';
+    margin-right: 6px;
+}
